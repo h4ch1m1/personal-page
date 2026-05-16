@@ -3,23 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="h4ch1m1's personal GitHub Pages entry, pointing to Fiesta: a bilingual notebook for computational neuroscience and brain-inspired intelligence." />
+    <meta name="description" content="h4ch1m1's personal page, linking to Fiesta, a bilingual notebook for computational neuroscience and brain-inspired intelligence." />
     <meta name="author" content="h4ch1m1" />
-    <meta name="theme-color" content="#246b62" />
+    <meta name="theme-color" content="#ffffff" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="h4ch1m1 | Fiesta" />
-    <meta property="og:description" content="Personal GitHub Pages entry for Fiesta, a bilingual learning notebook on computational neuroscience and brain-inspired intelligence." />
+    <meta property="og:title" content="h4ch1m1" />
+    <meta property="og:description" content="Personal page for h4ch1m1. Blog: Fiesta." />
     <meta property="og:url" content="https://h4ch1m1.github.io/personal-page/" />
-    <meta http-equiv="refresh" content="3; url=https://h4ch1m1.github.io/Fiesta/" />
     <link rel="canonical" href="https://h4ch1m1.github.io/personal-page/" />
-    <title>h4ch1m1 | GitHub Pages</title>
+    <title>h4ch1m1</title>
     <style>
       :root {
-        --bg: #f7f6f0;
-        --text: #20231f;
-        --muted: #62685f;
-        --accent: #246b62;
-        --line: #dedbd0;
+        --text: #222;
+        --muted: #666;
+        --line: #e5e5e5;
+        --link: #1f5fbf;
       }
 
       * {
@@ -28,74 +26,94 @@
 
       body {
         margin: 0;
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        background: var(--bg);
+        background: #fff;
         color: var(--text);
-        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-        line-height: 1.6;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        line-height: 1.65;
       }
 
       main {
-        width: min(760px, calc(100% - 36px));
-        padding: clamp(28px, 7vw, 64px);
-        border: 1px solid var(--line);
-        background: white;
-        box-shadow: 0 18px 50px rgba(32, 35, 31, 0.1);
-      }
-
-      p {
-        color: var(--muted);
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 64px 22px 80px;
       }
 
       h1 {
-        margin: 0 0 12px;
+        margin: 0 0 18px;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: clamp(42px, 8vw, 78px);
-        line-height: 1;
+        font-size: 34px;
+        font-weight: 500;
+      }
+
+      h2 {
+        margin: 34px 0 10px;
+        border-bottom: 1px solid var(--line);
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      p {
+        margin: 0 0 12px;
       }
 
       a {
-        color: var(--accent);
-        font-weight: 800;
-      }
-
-      .actions {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-        margin-top: 24px;
-      }
-
-      .button {
-        display: inline-flex;
-        min-height: 42px;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid var(--accent);
-        background: var(--accent);
-        color: white;
-        padding: 10px 16px;
+        color: var(--link);
         text-decoration: none;
       }
 
-      .button.secondary {
-        border-color: var(--line);
-        background: white;
-        color: var(--text);
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .links {
+        margin-top: 12px;
+        color: var(--muted);
+      }
+
+      .blog-link {
+        font-weight: 700;
+      }
+
+      ul {
+        margin: 8px 0 0;
+        padding-left: 22px;
+      }
+
+      @media (max-width: 640px) {
+        main {
+          padding-top: 38px;
+        }
       }
     </style>
   </head>
   <body>
     <main>
-      <p>h4ch1m1 · GitHub Pages</p>
-      <h1>Fiesta</h1>
-      <p>正在跳转到计算神经科学与类脑智能学习笔记网站。Redirecting to the computational neuroscience and brain-inspired intelligence notes site.</p>
-      <div class="actions">
-        <a class="button" href="https://h4ch1m1.github.io/Fiesta/">Open Fiesta</a>
-        <a class="button secondary" href="https://github.com/h4ch1m1">GitHub @h4ch1m1</a>
-      </div>
+      <h1>h4ch1m1</h1>
+      <p>
+        我正在学习计算神经科学、类脑智能和计算机专业基础，也会把论文阅读、课程笔记和一些小想法整理下来。
+      </p>
+      <p>
+        I am collecting notes on computational neuroscience, brain-inspired intelligence, computer science, papers, and small experiments.
+      </p>
+      <p class="links">
+        <a class="blog-link" href="https://h4ch1m1.github.io/Fiesta/">这是我的博客</a>
+        &nbsp;/&nbsp;
+        <a href="https://github.com/h4ch1m1">GitHub</a>
+      </p>
+
+      <h2>About</h2>
+      <p>
+        这个页面只是一个个人入口。主要内容会放在 Fiesta，那里会更像一个长期维护的学习笔记库。
+      </p>
+
+      <h2>Interests</h2>
+      <ul>
+        <li>Computational neuroscience</li>
+        <li>Brain-inspired intelligence</li>
+        <li>Computer science foundations</li>
+        <li>Paper reading and small reproductions</li>
+      </ul>
     </main>
   </body>
 </html>
