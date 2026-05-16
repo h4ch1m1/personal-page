@@ -1,23 +1,24 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="h4ch1m1's personal page, linking to Fiesta, a bilingual notebook for computational neuroscience and brain-inspired intelligence." />
-    <meta name="author" content="h4ch1m1" />
+    <meta name="description" content="Academic homepage of baoxiangcheng, an undergraduate student in Computer Science at South China University of Technology interested in computational neuroscience, memory systems, behavioral modeling, and NeuroAI." />
+    <meta name="author" content="baoxiangcheng" />
     <meta name="theme-color" content="#ffffff" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="h4ch1m1" />
-    <meta property="og:description" content="Personal page for h4ch1m1. Blog: Fiesta." />
+    <meta property="og:title" content="baoxiangcheng" />
+    <meta property="og:description" content="Academic homepage of baoxiangcheng. Research interests include computational neuroscience, memory systems, behavioral modeling, and NeuroAI." />
     <meta property="og:url" content="https://h4ch1m1.github.io/personal-page/" />
     <link rel="canonical" href="https://h4ch1m1.github.io/personal-page/" />
-    <title>h4ch1m1</title>
+    <title>baoxiangcheng</title>
     <style>
       :root {
-        --text: #222;
-        --muted: #666;
-        --line: #e5e5e5;
-        --link: #1f5fbf;
+        --text: #202020;
+        --muted: #666666;
+        --line: #dddddd;
+        --link: #1f5c9a;
+        --soft: #f7f7f7;
       }
 
       * {
@@ -26,7 +27,7 @@
 
       body {
         margin: 0;
-        background: #fff;
+        background: #ffffff;
         color: var(--text);
         font-family: Arial, Helvetica, sans-serif;
         font-size: 15px;
@@ -34,16 +35,26 @@
       }
 
       main {
-        max-width: 860px;
+        max-width: 900px;
         margin: 0 auto;
-        padding: 64px 22px 80px;
+        padding: 56px 24px 80px;
+      }
+
+      header {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 24px;
+        align-items: start;
+        border-bottom: 1px solid var(--line);
+        padding-bottom: 20px;
       }
 
       h1 {
-        margin: 0 0 18px;
+        margin: 0 0 6px;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 34px;
+        font-size: 36px;
         font-weight: 500;
+        line-height: 1.15;
       }
 
       h2 {
@@ -51,6 +62,11 @@
         border-bottom: 1px solid var(--line);
         font-size: 20px;
         font-weight: 600;
+      }
+
+      h3 {
+        margin: 18px 0 4px;
+        font-size: 16px;
       }
 
       p {
@@ -66,54 +82,147 @@
         text-decoration: underline;
       }
 
-      .links {
-        margin-top: 12px;
+      ul {
+        margin: 8px 0 0;
+        padding-left: 22px;
+      }
+
+      li {
+        margin-bottom: 4px;
+      }
+
+      .subtitle,
+      .meta,
+      .date {
         color: var(--muted);
+      }
+
+      .contact {
+        text-align: right;
+        white-space: nowrap;
+      }
+
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 16px;
+        margin-top: 12px;
       }
 
       .blog-link {
         font-weight: 700;
       }
 
-      ul {
-        margin: 8px 0 0;
-        padding-left: 22px;
+      .item {
+        margin-bottom: 16px;
       }
 
-      @media (max-width: 640px) {
+      .item-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 18px;
+      }
+
+      .item-title {
+        font-weight: 700;
+      }
+
+      .note {
+        background: var(--soft);
+        border: 1px solid var(--line);
+        padding: 12px 14px;
+      }
+
+      @media (max-width: 700px) {
         main {
-          padding-top: 38px;
+          padding-top: 36px;
+        }
+
+        header,
+        .item-head {
+          display: block;
+        }
+
+        .contact {
+          margin-top: 14px;
+          text-align: left;
+          white-space: normal;
         }
       }
     </style>
   </head>
   <body>
     <main>
-      <h1>h4ch1m1</h1>
-      <p>
-        我正在学习计算神经科学、类脑智能和计算机专业基础，也会把论文阅读、课程笔记和一些小想法整理下来。
-      </p>
-      <p>
-        I am collecting notes on computational neuroscience, brain-inspired intelligence, computer science, papers, and small experiments.
-      </p>
-      <p class="links">
-        <a class="blog-link" href="https://h4ch1m1.github.io/Fiesta/">这是我的博客</a>
-        &nbsp;/&nbsp;
-        <a href="https://github.com/h4ch1m1">GitHub</a>
-      </p>
+      <header>
+        <div>
+          <h1>baoxiangcheng</h1>
+          <p class="subtitle">
+            Undergraduate Student in Computer Science<br />
+            South China University of Technology
+          </p>
+          <p class="links">
+            <a class="blog-link" href="https://h4ch1m1.github.io/Fiesta/">这是我的博客</a>
+            <a href="https://github.com/h4ch1m1">GitHub</a>
+            <a href="mailto:2868937985@qq.com">Email</a>
+          </p>
+        </div>
+        <div class="contact">
+          <p>Guangzhou, China</p>
+          <p><a href="mailto:2868937985@qq.com">2868937985@qq.com</a></p>
+        </div>
+      </header>
 
       <h2>About</h2>
       <p>
-        这个页面只是一个个人入口。主要内容会放在 Fiesta，那里会更像一个长期维护的学习笔记库。
+        I am an undergraduate student in Computer Science and Technology at South China University of Technology.
+        My current interests include computational models of human memory systems, episodic memory and context,
+        behavioral data modeling, computational neuroscience, and NeuroAI.
+      </p>
+      <p class="note">
+        Fiesta is my public notebook for course notes, paper reading, small reproductions, and early research ideas.
       </p>
 
-      <h2>Interests</h2>
+      <h2>Education</h2>
+      <div class="item">
+        <div class="item-head">
+          <span class="item-title">South China University of Technology</span>
+          <span class="date">2024 - Expected 2028</span>
+        </div>
+        <p class="meta">B.Eng. in Computer Science and Technology, School of Computer Science and Engineering</p>
+      </div>
+
+      <h2>Research Interests</h2>
       <ul>
-        <li>Computational neuroscience</li>
-        <li>Brain-inspired intelligence</li>
-        <li>Computer science foundations</li>
-        <li>Paper reading and small reproductions</li>
+        <li>Computational neuroscience and NeuroAI</li>
+        <li>Computational models of human memory systems</li>
+        <li>Episodic memory, context, and behavioral data modeling</li>
+        <li>Agentic scientific workflows for biomedical and biological research</li>
       </ul>
+
+      <h2>Selected Research Projects</h2>
+      <div class="item">
+        <h3>ViroGlobe: Global-Scale Mosquito-Borne Disease Benchmark and Simulator</h3>
+        <p class="meta">Agent-based modeling / global-scale disease benchmark. Second author.</p>
+      </div>
+      <div class="item">
+        <h3>Toward Efficient End-to-End VEM Processing Using a Unified Agent</h3>
+        <p class="meta">Biomedical imaging / agentic scientific workflow. Contributed to image restoration and segmentation model optimization.</p>
+      </div>
+      <div class="item">
+        <h3>AutoBinder Agent: An MCP-Based Agent for End-to-End Protein Binder Design</h3>
+        <p class="meta">Computational biology / scientific workflow. Main contributor.</p>
+      </div>
+
+      <h2>Honors</h2>
+      <ul>
+        <li>Honorable Mention, Mathematical Contest in Modeling (MCM/ICM), COMAP, 2026</li>
+        <li>Provincial Third Prize, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM), 2025</li>
+      </ul>
+
+      <h2>Skills</h2>
+      <p>
+        Python, PyTorch, scikit-learn, NumPy, Pandas, Matplotlib, OpenCV, Linux, Docker, Git, LaTeX.
+      </p>
     </main>
   </body>
 </html>
