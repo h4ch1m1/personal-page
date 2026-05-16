@@ -4,23 +4,23 @@
 
 Repository name:
 
-`h4ch1m1.github.io`
+`personal-page`
 
 Recommended GitHub repository description:
 
-`Personal GitHub Pages entry for h4ch1m1, pointing to Neuro Notes.`
+`Personal GitHub Pages entry for h4ch1m1, pointing to Fiesta.`
 
 Recommended website URL:
 
-`https://h4ch1m1.github.io/`
+`https://h4ch1m1.github.io/personal-page/`
 
 Recommended topics:
 
-`github-pages`, `personal-site`, `neuro-notes`
+`github-pages`, `personal-site`, `fiesta`
 
 ## GitHub Pages
 
-For a user site repository named `h4ch1m1.github.io`, GitHub Pages should publish automatically from the default branch. If needed, use:
+Use these Pages settings:
 
 - Source: `Deploy from a branch`
 - Branch: `main`
