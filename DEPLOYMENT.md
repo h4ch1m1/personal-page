@@ -24,4 +24,4 @@ Use these Pages settings:
 
 - Source: `Deploy from a branch`
 - Branch: `main`
-- Folder: `/root`
+- Folder: `/(root)`
